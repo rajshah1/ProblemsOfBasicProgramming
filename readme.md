@@ -35,5 +35,24 @@ NO
 
 
 
+## 2). Prime between 1 and given number
+
+file name : primeNumBetween
+
+You are given an integer N. You need to print the series of all prime numbers till N.
+
+## Input Format
+
+The first and only line of the input contains a single integer N denoting the number till where you need to find the series of prime number.
+
+## Output Format
+
+Print the desired output in single line separated by spaces.
+
+```
+9
+output
+2 3 5
+```
 
 
