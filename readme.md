@@ -16,9 +16,13 @@ Each test consists of a single line, containing two space separated strings S1 a
 For each test case, if any of the permutation of string S1 is equal to the string S2 print YES else print NO.
 
 '''
-3                           YES
-sumit mitsu                 YES
-ambuj jumba                 NO
+
+3
+
+sumit mitsu                 
+
+ambuj jumba                 
+
 abhi hibb
 '''
 
