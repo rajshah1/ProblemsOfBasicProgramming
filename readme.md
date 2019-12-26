@@ -23,6 +23,14 @@ sumit mitsu
 ambuj jumba                 
 
 abhi hibb
+
+output:
+
+YES
+
+YES
+
+NO
 ```
 
 
