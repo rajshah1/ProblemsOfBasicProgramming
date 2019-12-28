@@ -1,4 +1,5 @@
 # Problems: 
+
 This are the type of problems that will help in coding practice and are fun .Please let me know if you find any error and Make sure to star the repos if you like .
 
 ## 1.) 2 string   
@@ -160,7 +161,92 @@ Output "Patlu" (without the quotes) if Patlu puts the last bricks ,"Motu"(withou
 Motu
 ```
 
+## 8). Lift queries
 
+There are 7 floors in BH3 and only 2 lifts. Initially Lift A is at the ground floor and Lift B at the top floor. Whenever someone calls the lift from N th floor, the lift closest to that floor comes to pick him up. If both the lifts are at equidistant from the N th floor, them the lift from the lower floor comes up.
 
+## INPUT
 
+First line contains a integer T denoting the number of test cases.
 
+Next T lines contains a single integer N denoting the floor from which lift is called.
+
+## OUTPUT
+Output T lines containing one character "A" if the first lift goes to N th floor or "B" for the second lift.
+
+```
+2
+3
+5
+
+output:
+A
+A
+```
+
+## 9). palyWithNumbers.py
+You are given an array of n numbers and q queries. For each query you have to print the floor of the expected value(mean) of the subarray from L to R.
+
+## Input:
+
+First line contains two integers N and Q denoting number of array elements and number of queries.
+Next line contains N space seperated integers denoting array elements.
+Next Q lines contain two integers L and R(indices of the array).
+
+## Output:
+print a single integer denoting the answer.
+contraints:
+1<= N ,Q,L,R <= 10^6
+1<= Array elements <= 10^9
+
+## 10). Seven Segment 
+
+## Input Format:
+First line contains T (test cases).
+Next T lines contain a Number N.
+
+## Output Format:
+Print the largest possible number numerically that can be generated using at max that many number of matchsticks which was used to generate N.
+
+```
+2
+1
+0
+Output:
+1
+111
+```
+
+11.) Magic word
+FILE NAME : magicWord.py 
+
+Dhananjay has recently learned about ASCII values.He is very fond of experimenting. With his knowledge of ASCII values and character he has developed a special word and named it Dhananjay's Magical word.
+
+A word which consist of alphabets whose ASCII values is a prime number is an Dhananjay's Magical word. An alphabet is Dhananjay's Magical alphabet if its ASCII value is prime.
+
+Dhananjay's nature is to boast about the things he know or have learnt about. So just to defame his friends he gives few string to his friends and ask them to convert it to Dhananjay's Magical word. None of his friends would like to get insulted. Help them to convert the given strings to Dhananjay's Magical Word.
+
+Rules for converting:
+
+1.Each character should be replaced by the nearest Dhananjay's Magical alphabet.
+2.If the character is equidistant with 2 Magical alphabets. The one with lower ASCII value will be considered as its replacement.
+
+## Input format:
+
+First line of input contains an integer T number of test cases. Each test case contains an integer N (denoting the length of the string) and a string S.
+
+## Output Format:
+
+For each test case, print Dhananjay's Magical Word in a new line.
+
+## Constraints:
+1 <= T <= 100
+1 <= |S| <= 500
+
+```
+1
+6
+AFREEN
+
+output: CGSCCSO
+```
