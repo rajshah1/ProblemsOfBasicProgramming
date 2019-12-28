@@ -34,7 +34,7 @@ NO
 
 ## 2). Prime between 1 and given number
 
-file name : primeNumBetween
+file name : primeNumBetween.py
 
 You are given an integer N. You need to print the series of all prime numbers till N.
 
@@ -184,7 +184,8 @@ A
 A
 ```
 
-## 9). palyWithNumbers.py
+## 9). play With numbers
+
 You are given an array of n numbers and q queries. For each query you have to print the floor of the expected value(mean) of the subarray from L to R.
 
 ## Input:
@@ -198,6 +199,17 @@ print a single integer denoting the answer.
 contraints:
 1<= N ,Q,L,R <= 10^6
 1<= Array elements <= 10^9
+```
+5 3
+1 2 3 4 5
+1 3
+2 4
+2 5
+output:
+2
+3
+3
+```
 
 ## 10). Seven Segment 
 
@@ -217,7 +229,7 @@ Output:
 111
 ```
 
-11.) Magic word
+## 11.) Magic word
 FILE NAME : magicWord.py 
 
 Dhananjay has recently learned about ASCII values.He is very fond of experimenting. With his knowledge of ASCII values and character he has developed a special word and named it Dhananjay's Magical word.
