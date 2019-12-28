@@ -69,7 +69,7 @@ Aisle Seat : AS
 
 Arrengment is as follows:
 
-![Arrengement] (https://he-s3.s3.amazonaws.com/media/uploads/a2e0794.jpg)
+! [Arrengement] ( https://he-s3.s3.amazonaws.com/media/uploads/a2e0794.jpg )
 
 ##  INPUT
 First line of input will consist of a single integer T denoting number of test-cases. Each test-case consists of a single integer N denoting the seat-number.
