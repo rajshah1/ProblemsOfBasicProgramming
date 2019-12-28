@@ -56,7 +56,7 @@ output
 ```
 
 
-##  3).seating arrengment
+##  3). seating arrengment
 
 file name : settingArr.py
 
@@ -66,10 +66,6 @@ Akash and Vishal are quite fond of travelling. They mostly travel by railways. T
 Window Seat : WS
 Middle Seat : MS
 Aisle Seat : AS
-
-Arrengment is as follows:
-
-! [Arrengement] ( https://he-s3.s3.amazonaws.com/media/uploads/a2e0794.jpg )
 
 ##  INPUT
 First line of input will consist of a single integer T denoting number of test-cases. Each test-case consists of a single integer N denoting the seat-number.
@@ -88,6 +84,35 @@ output
 19 WS
 
 45 AS
+```
+
+## 4) anagram Delete Problem
+
+Given two strings, a and b , that may or may not be of the same length, determine the minimum number of character deletions required to make a and b anagrams. Any characters can be deleted from either of the strings.
+
+## Input :
+
+test cases,t
+two strings a and b, for each test case
+
+## Output:
+
+Desired O/p
+
+Constraints :
+
+string lengths<=10000
+
+```
+1
+
+cde
+
+abc
+
+OUTPUT:
+
+4
 ```
 
 
