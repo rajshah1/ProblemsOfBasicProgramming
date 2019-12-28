@@ -1,6 +1,8 @@
 # Problems: 
+This are the type of problems that will help in coding practice and are fun .Please let me know if you find any error and Make sure to star the repos if you like .
+
 ## 1.) 2 string   
-file name: two_string.py
+file name: twosstring.py
 
 Given two strings of equal length, you have to tell whether they both strings are identical.
 
@@ -17,19 +19,13 @@ For each test case, if any of the permutation of string S1 is equal to the strin
 
 ```
 3
-
 sumit mitsu                 
-
 ambuj jumba                 
-
 abhi hibb
 
 output:
-
 YES
-
 YES
-
 NO
 ```
 
@@ -75,14 +71,11 @@ For each test case, print the facing seat-number and the seat-type, separated by
 
 ```
 2
-
 18
-
 40
 
 output
 19 WS
-
 45 AS
 ```
 
@@ -98,22 +91,75 @@ two strings a and b, for each test case
 ## Output:
 
 Desired O/p
-
 Constraints :
-
 string lengths<=10000
 
 ```
 1
-
 cde
-
 abc
-
 OUTPUT:
-
 4
 ```
+
+## 5).  Find product
+
+file name : findProduct.py
+
+You have been given an array A of size N consisting of positive integers. You need to find and print the product of all the number in this array Modulo .
+
+## Input Format:
+The first line contains a single integer N denoting the size of the array. The next line contains N space separated integers denoting the elements of the array
+
+## Output Format:
+Print a single integer denoting the product of all the elements of the array Modulo 10^9+7.   
+
+```
+5
+1 2 3 4 5
+output 
+120
+```
+
+
+## 6). count divisors
+file name :devisoreBetweenlr.py
+ You have been given 3 integers - l, r and k. Find how many numbers between l and r (both inclusive) are divisible by k. You do not need to print these numbers, you just have to find their count.
+
+## Input Format
+The first and only line of input contains 3 space separated integers l, r and k.
+
+## Output Format
+Print the required answer on a single line.
+
+```
+1 10 1
+output:
+10
+```
+
+## 7). Bricks game 
+file name : bricks.c
+
+Patlu and Motu works in a building construction, they have to put some number of bricks N from one place to another, and started doing their work. They decided , they end up with a fun challenge who will put the last brick.
+
+They to follow a simple rule, In the i'th round, Patlu puts i bricks whereas Motu puts ix2 bricks.
+
+There are only N bricks, you need to help find the challenge result to find who put the last brick.
+
+ ## Input:
+
+First line contains an integer N.
+
+## Output:
+
+Output "Patlu" (without the quotes) if Patlu puts the last bricks ,"Motu"(without the quotes) otherwise.
+
+```
+13
+Motu
+```
+
 
 
 
