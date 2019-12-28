@@ -56,3 +56,40 @@ output
 ```
 
 
+##  3).seating arrengment
+
+file name : settingArr.py
+
+
+Akash and Vishal are quite fond of travelling. They mostly travel by railways. They were travelling in a train one day and they got interested in the seating arrangement of their compartment. The compartment looked something like
+
+Window Seat : WS
+Middle Seat : MS
+Aisle Seat : AS
+
+Arrengment is as follows:
+
+![Arrengement] (https://he-s3.s3.amazonaws.com/media/uploads/a2e0794.jpg)
+
+##  INPUT
+First line of input will consist of a single integer T denoting number of test-cases. Each test-case consists of a single integer N denoting the seat-number.
+
+## OUTPUT
+For each test case, print the facing seat-number and the seat-type, separated by a single space in a new line.
+
+```
+2
+
+18
+
+40
+
+output
+19 WS
+
+45 AS
+```
+
+
+
+
